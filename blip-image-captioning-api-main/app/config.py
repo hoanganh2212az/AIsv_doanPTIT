@@ -6,7 +6,7 @@ class Settings(BaseSettings):
     max_new_tokens: int = 60
     
     # THÊM DÒNG NÀY: Để hứng key từ file .env
-    openai_api_key: str = "AIzaSyAmB2ofGw3b9D5LDeL3tXQPVxb8UDwcD_8" 
+    openai_api_key: str = "Hahahoho_tudiendi" 
 
     model_config = SettingsConfigDict(
         env_file=".env",
